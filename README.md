@@ -1,5 +1,5 @@
-# OPERATING SYSTEM
-#### Project of Virtual Machine Linux with Ubuntu 18.04
+### OPERATING SYSTEM
+# Virtual Machine Linux with Ubuntu 18.04
 ## I. Set up a system call to work with files:
 1. Install a system call **int Create(char*name)**. The Create system call will use the Nachos FileSystem Object to create an empty file. Pay attention that filename is in user space, which means that the buffer which the pointer in user space points to must be moved from user space to system space. System call Create returns 0 on success and -1 on error
 2. Set up a system call **OpenFileID Open(char*name)** và **int Close(OpenFileID id)** (for opening and closing file)
